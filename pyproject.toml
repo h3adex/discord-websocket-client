@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "discord-websocket-client"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "discord_monitor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+websockets = "^10.3"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
